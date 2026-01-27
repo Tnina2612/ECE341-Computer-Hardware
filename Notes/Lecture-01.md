@@ -1,4 +1,4 @@
-# Digital Logic Design
+# **Digital Logic Design**
 
 ## 1. Logic Gates
 
