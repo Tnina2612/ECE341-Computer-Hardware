@@ -1,6 +1,6 @@
 # **Sequential Logic: Latches and Flip-Flops**
 
-## 1. Introduction to Sequential Logic
+## **1. Introduction to Sequential Logic**
 
 ### Combinational vs. Sequential Logic
 
@@ -33,7 +33,7 @@ While both are basic memory elements used in sequential circuits, they differ in
 * **Latch:** Watches inputs continuously and changes output at any time, irrespective of clock edges (often level-triggered).
 * **Flip-Flop:** Samples inputs and changes output *only* at the edge of a controlling clock signal (edge-triggered).
 
-## 2. Latches
+## **2. Latches**
 
 ### The SR Latch
 
@@ -93,7 +93,7 @@ Latches are **level-sensitive**, meaning the output responds immediately to inpu
 * **The Problem:** In circuits like counters or shift registers, this immediate propagation can cause race conditions or incorrect operation.
 * **The Solution:** Use **Master-Slave Flip-Flops**, which isolate outputs from inputs except at specific clock transitions.
 
-## 3. Flip-Flops
+## **3. Flip-Flops**
 
 ### Master-Slave D Flip-Flop
 

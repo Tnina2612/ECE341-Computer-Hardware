@@ -1,6 +1,6 @@
 # **Registers, Counters, and Finite State Machines**
 
-## 1. Registers
+## **1. Registers**
 
 ### Definition and Functionality
 
@@ -49,7 +49,7 @@ A Parallel Access Shift Register uses logic gates (AND/OR combination) and a con
     <img src="https://image2url.com/r2/default/images/1769534681707-52df9709-0772-40d6-b76b-bb267d829e59.png" width="500">
 </center>
 
-## 2. Counters
+## **2. Counters**
 
 ### Overview
 
@@ -91,7 +91,7 @@ To change direction, you must modify the triggering logic using one of two metho
 * **Disadvantage:** They are slow due to the "ripple" effect - propagation delays cascade through the chain of flip-flops, limiting operation speed.
 * **Solution:** Use Synchronous sequential circuits (Finite State Machines).
 
-## 3. Finite State Machines (FSM)
+## **3. Finite State Machines (FSM)**
 
 ### Definition
 
@@ -114,7 +114,7 @@ Designing an FSM involves 6 steps:
 5. **Logic Expressions:** Derive logic for Next State and Outputs by K-map or SoP.
 6. **Implementation:** Build the circuit from the derived expression.
 
-## 4. Design Example: Up/Down Counter
+## **4. Design Example: Up/Down Counter**
 
 **Problem Statement:** Design a Mod-4 counter using D flip-flops that counts up or down based on input $x$ and outputs $z=1$ when the count is 2.
 

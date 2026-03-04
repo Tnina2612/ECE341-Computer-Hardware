@@ -1,6 +1,6 @@
 # **Digital Logic Design**
 
-## 1. Logic Gates
+## **1. Logic Gates**
 
 Logic gates are the physical building blocks of digital electronics. They are electronic devices (built from transistors) that perform a specific Boolean function: taking one or more binary inputs (0 or 1) and producing a single binary output.
 
@@ -24,7 +24,7 @@ Logic gates are the physical building blocks of digital electronics. They are el
     <img src="https://i.pinimg.com/originals/c8/b8/c6/c8b8c60ce6fd7e74984711e379b56471.jpg" width="500">
 </center>
 
-## 2. Logic Circuits
+## **2. Logic Circuits**
 
 When you connect logic gates together, you create a logic circuit. These fall into two distinct categories based on how they handle time and memory.
 
@@ -46,7 +46,7 @@ When you connect logic gates together, you create a logic circuit. These fall in
 * **Examples:** Registers (like the MIPS registers `$t0`, `$a0`), Counters, RAM.
 * **Analogy:** A combination lock. You must turn the dial left, *then* right, *then* left. The lock "remembers" the previous positions.
 
-## 3. Combinational Logic Rules
+## **3. Combinational Logic Rules**
 
 These rules ensure that your digital circuit works reliably electrically and doesn't destroy itself.
 
@@ -68,7 +68,7 @@ These rules ensure that your digital circuit works reliably electrically and doe
 * **The Reason (Antenna Effect):** In modern CMOS chips (the technology used for almost all processors), the inputs have very high impedance (resistance). If you leave a wire disconnected, it acts like a little radio antenna. It picks up random electromagnetic noise from the air (static, radio waves, mains hum).
 * **The Consequence:** The gate will randomly flip between 0 and 1, causing your circuit to behave unpredictably. This can also cause the transistor to hover in a "half-on" state, causing it to overheat.
 
-## 4. Logic Function Representation
+## **4. Logic Function Representation**
 
 There are 3 different ways to represent a logic function:
 
@@ -88,7 +88,7 @@ The Boolean Algebra expresses the combinational logic in the form of an expressi
     <img src="https://image2url.com/r2/default/images/1768474700401-930f2837-8531-4a3a-ad12-96580d858d77.png" width="600">
 </center>
 
-## 5. Logic Expression Minimization
+## **5. Logic Expression Minimization**
 
 We just investigate combinational logic circuits that are created from only `NAND` gates since any logic function can by synthesized by using only `NAND` gates (or `NOR` gates). In chip manufacturing (CPU, RAM), producing billions of identical transistors (all `NAND`) is cheaper, more stable, and easier to design than manufacturing a mix of different gate types. 
 
@@ -120,4 +120,4 @@ Sum-of-products form can be derived from truth table by the following steps:
 
 ### Karnaugh Map (K-map)
 
-
+Read about this method on the internet. There are also some online tools that help to derive expressions from a K-map. 
